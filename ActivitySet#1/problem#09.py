@@ -1,5 +1,6 @@
 # Lists
 
+
 filename = "dataset/romeo.txt"
 fh = open(filename)
 lst = list()
