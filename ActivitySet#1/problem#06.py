@@ -18,3 +18,10 @@ while True:
         continue
 print ('Maximum is',l)
 print ('Minimum is',s)
+
+
+
+
+
+
+
