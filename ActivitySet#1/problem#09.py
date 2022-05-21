@@ -1,6 +1,5 @@
 # Lists
 
-
 filename = "dataset/romeo.txt"
 fh = open(filename)
 lst = list()
@@ -14,5 +13,3 @@ for line in fh:
             lst.append(i)
 lst.sort()
 print(lst)
-
-
