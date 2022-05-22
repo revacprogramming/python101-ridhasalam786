@@ -13,3 +13,6 @@ for line in fh:
             lst.append(i)
 lst.sort()
 print(lst)
+
+
+
