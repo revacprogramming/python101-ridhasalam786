@@ -22,3 +22,5 @@ for value,count in d.items():
 lst.sort()
 for value,count in lst:
     print (value,count)
+
+
