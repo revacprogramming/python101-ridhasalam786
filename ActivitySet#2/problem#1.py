@@ -9,7 +9,7 @@ def main():
     b = input  # ...
 
     c = add(a, b)
-    print  # ...
+    print  # ...= 
 
 
 
