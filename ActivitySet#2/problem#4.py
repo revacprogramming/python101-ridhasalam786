@@ -14,6 +14,7 @@ def cs_to_lot(cs):
     return z
 
 
+
 def lot_to_cs(lot):
     m = []  # to convert tuple into list
     for i in lot:
