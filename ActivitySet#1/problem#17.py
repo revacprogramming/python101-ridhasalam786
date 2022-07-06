@@ -1,4 +1,4 @@
-score =input("Enter Score: ")
+   score =input("Enter Score: ")
 s=float(score)
 if s>=0.9:
     print('A')
