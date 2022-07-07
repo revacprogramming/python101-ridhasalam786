@@ -18,3 +18,4 @@ for line in fhand:
         numlist.append(num)
 print(sum(numlist))
 
+
