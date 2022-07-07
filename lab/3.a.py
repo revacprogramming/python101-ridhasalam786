@@ -6,3 +6,4 @@ def sub_str(str):
 
 str=input("Enter the string: ")
 sub_str(str)
+
