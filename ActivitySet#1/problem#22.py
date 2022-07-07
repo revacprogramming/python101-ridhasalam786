@@ -13,3 +13,4 @@ rate = input("Enter rate:")
 r = float(rate)
 p = computepay(h,r)
 print(p)
+
