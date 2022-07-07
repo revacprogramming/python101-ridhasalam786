@@ -11,3 +11,4 @@ if h>40:
 else:
     gp=h*r
 print(gp)
+    
