@@ -1,5 +1,6 @@
 #Lists
 
+
 fname = input("Enter file name: ")
 if len(fname) < 1:
     fname = "mbox-short.txt"
@@ -14,3 +15,5 @@ for line in fh:
 		words= line.split()
 		print(words[1])
 print("There were %d lines in the file with From as the first word"%count)
+
+
