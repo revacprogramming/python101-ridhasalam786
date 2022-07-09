@@ -14,3 +14,4 @@ def output(str,str_up):
 st=read()
 up=up_str(st)
 output(st,up)
+
