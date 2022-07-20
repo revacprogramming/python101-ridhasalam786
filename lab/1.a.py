@@ -13,7 +13,6 @@ def input_srn():
     print(list1)
 
 
-
 def append_srn(list1):
     print("Add SRN")
     while True:
