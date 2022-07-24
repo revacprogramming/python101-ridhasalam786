@@ -6,7 +6,7 @@ if(flag=='Y'):
 		srn,name,sem,sec,avgmark=input("Enter the SRN number,name, semester,section and average mark of the student\n").split()
 		f.writelines(srn+"  "+name+"  "+sem+"  "+sec+"  "+avgmark+"\n")
 f.close()
-# code to extract 'A' section students with 75% above
+
 print("Contents of student file is")
 mylines=[ ]
 with open("std.txt",'rt') as outfile:
