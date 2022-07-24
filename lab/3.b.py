@@ -1,20 +1,20 @@
-
 def read():
-    str=input("Enter the string: ")
-    return str
+    lst=[]
+    while True:
+      str=input("Enter the string: ")
+      if str=='done':break
+      lst.append(str)
+    return lst
 
 def up_str(str):
-    str_up=str.upper()
-    return str_up
+    for i in str:
+        str_up=i.upper()
+        print(str_up)
 
-def output(str,str_up):
-    print("Given String: %s"%st)
-    print("String converted to Upper case: %s"%up)
-
+st=[]
 st=read()
 up=up_str(st)
-output(st,up)
-
+  
 
 
 
