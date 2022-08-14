@@ -19,6 +19,11 @@ print("Diagonal Elements of matrix: ")
 dia=matrix.diagonal()
 print(dia)
 r=int(input("Enter row number to display: "))
-print(matrix[r])
 c=int(input("Enter column number to display: "))
-print(matrix[c])
+row = matrix[r, :]
+print(row)
+
+# get index=2 along axis=1 - this means a column in 2D
+col = matrix[:, c]
+print(col)
+
